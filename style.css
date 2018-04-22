@@ -98,13 +98,338 @@ textarea {
    ========================================================================== */
 
 .slicknav_menu{display:none}
+/*.backgroundImg{
+    background-image: url('img/img.jpg');
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
 
 
+/*navbar section*/
+.navbar-default{
+    background: transparent;
+    border:0px;
+    font-family: Poppins;
+    transition: .4s;
+}
+.navbar-brand{
+    color: #000 !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+#navbar ul li a{color: #000;}
+nav.black{
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+/*navbar section*/
+
+/*main section*/
+.imgSection{width: 100%;}
+.imgSection img{width: 100%;}
+.ImgContent{position: relative;}
+.ImgContent h2 {
+    position: absolute;
+    top: -750px;
+    color: #fff;
+    left: 850px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Lato;
+}
+.ImgContent h1 {
+    position: absolute;
+    top: -725px;
+    left: 680px;
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    font-family: Poppins;
+}
+.ImgContent p {
+    position: absolute;
+    top: -600px;
+    left: 787px;
+    color: #fff;
+    font-size: 25px;
+    font-family: robotto;
+    text-align: center;
+}
+.ImgContent button {
+    position: absolute;
+    top: -550px;
+    left: 860px;
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    font-family: Poppins;
+    background: #9B59B6;
+    border: none;
+    color: #fff;
+    transition: 0.5s;
+}
+.ImgContent button:hover{
+    background-color: #8E44AD;
+}
+/*main section*/
 
 
+/*about */
+.margin-top{margin-top: 50px;}
+#about{ margin: 130px 0px;}
+.aboutContent{}
+.aboutContent h2 {
+    font-size: 45px;
+    font-family: Lato;
+}
+.aboutContent h1 {
+    font-size: 40px;
+    font-family: Poppins;
+    text-align: justify;
+}
+.aboutContent p {
+    line-height: 30px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: robotto;
+    margin: 0;
+}
+.aboutbtn {
+    width: 160px;
+    height: 45px;
+    background: none;
+    border: 1px solid;
+    margin-top: 20px;
+    transition: .3s;
+}
+.aboutbtn:hover{border:1px solid #ddd; background-color: #ddd;}
+/*about */
+
+/*servies*/
+.margin-top h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Laot;
+    border-bottom: 1px solid #ddd;
+}
+.margin-top h2 span {
+    color: #663399;
+}
 
 
+.services {
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.services a{text-decoration: none; color: #000;}
+.services i {
+    text-align: center;
+    font-size: 60px;
+    margin-left: 140px;
+    margin-top: 22px;
+}
+.services h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Poppins;
+    color: #335544;
+}
+.services p {
+    text-align: center;
+    font-size: 18px;
+    font-family: Lato;
+}
+/*servies*/
 
+/*resume*/
+#resume h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Laot;
+    border-bottom: 1px solid #ddd;
+}
+#resume h2 span{color: #663399;}
+.resume-section h4 {
+    font-size: 15px;
+    margin-top: -30px;
+    margin-left: 12px;
+    font-family: lato;
+}
+.resume-section {
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 120px;
+}
+.resume-section h1 {
+    font-size: 35px;
+    padding: 10px;
+    font-family: lato;
+    font-weight: bold;
+    border-right: 1px solid;
+}
+.resume-section h3 {
+    font-family: times new roman;
+    font-size: 25px;
+}
+.resume-section p {
+    font-family: lato;
+    font-size: 16px;
+    text-align: justify;
+}
+.margin{margin-top: 10px;}
+/*resume*/
+
+
+/*hire me*/
+.hireBackImage{
+    background-image: url('img/img.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-height: 100%;
+}
+.hireMe h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    font-family: Poppins;
+    margin-top: 80px;
+}
+.hirebtn {
+    border:1px solid #013243;
+    width: 150px;
+    height: 50px;
+    background: none;
+    margin-bottom: 50px;
+    margin-left: 500px;
+    color: #fff;
+    transition: .3s;
+}
+.hirebtn:hover{
+    border:1px solid #013243;
+    background-color: #013243;
+}
+/*hire me*/
+
+/*portfulio section*/
+.portfulioContent {
+    margin: 100px 0px;
+}
+.portfulioContent h1 {
+    font-size: 54px;
+    font-family: Lato;
+    color: Red;
+}
+.portfulioContent h1 span {
+    color: #000;
+    font-weight: bold;
+    border-bottom: 3px solid #ddd;
+}
+
+.portfulioImg{}
+.portfulioImgBox {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.portfulioImgBox img {
+    width: 100%;
+    height: 100%;
+}
+.portfulioImgBox h2 {
+    position: absolute;
+    top: 183px;
+    left: 15px;
+    color: #fff;
+    font-size: 30px;
+    font-family: Lato;
+}
+.portfulioImgBox:hover{
+    color: red;
+    opacity: 0.5;
+}
+
+/*portfulio section*/
+
+/*Blog section*/
+.blogImg{}.blogImg {
+    width: 100%;
+    height: 213px;
+}
+.blogImg img {
+    width: 100%;
+    height: 100%;
+}
+.img-thumbnail a{text-decoration: none;}
+.img-thumbnail a h2 {
+    text-align: justify;
+    color: #000;
+    font-size: 25px;
+    padding: 3px;
+    transition: 0.3s;
+}
+.img-thumbnail i {
+    font-size: 15px;
+    padding: 3px;
+    color: #9f8484;
+}
+.img-thumbnail p {
+    font-size: 16px;
+    padding: 3px;
+    font-family: Poppins;
+    text-align: justify;
+}
+.img-thumbnail a h2:hover{color: red; }
+/*Blog section*/
+
+/*contact us section*/
+.submitFormSection{}
+.submitFormSection .btn {
+    width: 160px;
+    height: 50px;
+    border-radius: 0px;
+    font-size: 16px;
+    font-family: lato;
+    background: transparent;
+    border: 1px solid #ddd;
+    transition: 0.4s;
+    margin-bottom: 20px;
+}
+.submitFormSection .btn:hover{background-color: #ddd;}
+
+
+.contactSec i{}
+.contactSec ul{}
+.contactSec ul li {
+    list-style: none;
+}
+.contactSec ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+    font-family: lato;
+}
+.contactSec ul li p {
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: Poppins;
+}
+/*contact us section*/
+
+/*footer*/
+.footer-menu{
+   width: 100%;
+   background-color: #535353;
+   color: white;
+   text-align: center;
+}
+.theme{}
+.theme p{padding: 15px;}
+.footer-social-icon i{}
+/*footer*/
 
 
 
@@ -288,4 +613,137 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+    body {        
+
+    }
+    .ImgContent h2 {
+        position: absolute;
+        top: -144px;
+        color: #fff;
+        left: 112px;
+        text-align: center;
+        font-size: 20px;
+        font-family: Lato;
+    }
+
+    .ImgContent h1 {
+        position: absolute;
+        top: -118px;
+        left: 64px;
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+        font-family: Poppins;
+    }
+
+    .ImgContent p {
+        position: absolute;
+        top: -74px;
+        left: 85px;
+        color: #fff;
+        font-size: 12px;
+        font-family: robotto;
+        text-align: center;
+    }
+
+    .ImgContent button {
+        position: absolute;
+        top: -48px;
+        left: 92px;
+        width: 123px;
+        height: 30px;
+        font-size: 18px;
+        font-family: Poppins;
+        background: #9B59B6;
+        border: none;
+        color: #fff;
+        transition: 0.5s;
+    }
+
+    .aboutContent h2 {
+        font-size: 40px;
+        font-family: Lato;
+    }
+
+    .aboutContent h1 {
+        font-size: 25px;
+        font-family: Poppins;
+        text-align: justify;
+    }
+
+    .aboutContent p {
+        line-height: 23px;
+        text-align: justify;
+        font-size: 14px;
+        font-family: robotto;
+        margin: 0;
+    }
+
+    .services i {
+        text-align: center;
+        font-size: 50px;
+        margin-left: 113px;
+        margin-top: 16px;
+    }
+
+    .resume-section {
+        border: 1px solid #ddd;
+        width: 100%;
+        height: 179px;
+    }
+
+    .resume-section h1 {
+        font-size: 22px;
+        padding: 0px;
+        font-family: lato;
+        font-weight: bold;
+        /* border-right: 1px solid; */
+    }
+
+    .resume-section h4 {
+        font-size: 12px;
+        margin-top: -16px;
+        margin-left: 1px;
+        font-family: lato;
+    }
+
+    .resume-section h3 {
+        font-family: times new roman;
+        font-size: 16px;
+        /* float: right; */
+    }
+
+    .resume-section p {
+        font-family: lato;
+        font-size: 12px;
+        text-align: justify;
+        /* float: right; */
+    }
+
+    .hireMe h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 36px;
+        font-family: Poppins;
+        margin-top: 149px;
+    }
+
+    .hirebtn {
+        border: 1px solid #013243;
+        width: 150px;
+        height: 50px;
+        background: none;
+        margin-bottom: 50px;
+        margin-left: 80px;
+        color: #fff;
+        transition: .3s;
+    }
+
 }
